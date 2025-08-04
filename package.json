@@ -1,0 +1,16 @@
+{
+  "name": "pdf-generator",
+  "version": "1.0.0",
+  "description": "A simple Node.js server to generate PDFs.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "marked": "^9.0.0",
+    "puppeteer": "^21.5.2"
+  }
+}
